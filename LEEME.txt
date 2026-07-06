@@ -1,0 +1,49 @@
+FASCINA SKIN — MOCKUP DE PÁGINA WEB
+=====================================
+
+CÓMO ABRIRLO
+------------
+1. Descomprimí la carpeta.
+2. Hacé doble clic en "index.html" — se abre directo en el navegador (Chrome, etc).
+   No necesita internet para verse, salvo el mapa de ubicación y las fuentes de letra.
+
+QUÉ FALTA ANTES DE ENTREGAR LA VERSIÓN FINAL
+---------------------------------------------
+Todos los cuadros de color (rosa/bordó con degradé) son PLACEHOLDERS.
+Hay que reemplazarlos por fotos reales de @fascina.py en estos lugares:
+
+  - Hero (arriba de todo): 1 foto "antes" y 1 foto "después" para el slider interactivo
+  - Sección "Servicios": 4 fotos, una por tratamiento
+    (limpieza facial, acné, hidratación, cosmiatría corporal)
+  - Sección "Resultados": 4 fotos de trabajos reales (cejas/pestañas, facial, acné, hidratación)
+  - Sección "Antes y Después": 1 par de fotos antes/después (se usó la de acné como ejemplo)
+
+CÓMO REEMPLAZAR UNA FOTO (con ayuda o sin programar)
+------------------------------------------------------
+Cada placeholder tiene una clase CSS en el archivo styles.css, por ejemplo:
+  .placeholder-facial{background:linear-gradient(...)}
+Se puede reemplazar esa línea por:
+  .placeholder-facial{background:url("images/limpieza-facial.jpg") center/cover;}
+y colocar la foto real dentro de la carpeta /images.
+
+DATOS YA CARGADOS (reales, de Instagram)
+------------------------------------------
+- Nombre: Fascina Skin (@fascina.py)
+- Dirección: Av. Félix Bogado c/ Moleón Andreu 2636, Asunción
+- WhatsApp: enlace directo ya cargado (wa.me/message/TRSCQNFVJAH6F1)
+- Instagram: @fascina.py
+- Atención exclusiva para mujeres
+- Gift Cards disponibles (se agregó una sección específica)
+
+DATOS QUE FALTAN CONFIRMAR CON LA CLIENTA
+--------------------------------------------
+- Horarios de atención (se dejó "Consultar por WhatsApp" porque no estaba confirmado)
+- Precios de cada tratamiento (se dejó "Consultar" en cada servicio)
+- Nombres reales de los tratamientos que ella quiera destacar
+
+ESTRUCTURA DE ARCHIVOS
+------------------------
+index.html   -> contenido y estructura de la página
+styles.css   -> colores, tipografía y diseño
+script.js    -> slider antes/después, menú móvil, preguntas frecuentes
+images/      -> carpeta para poner las fotos reales
